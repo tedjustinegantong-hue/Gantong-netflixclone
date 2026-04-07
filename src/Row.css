@@ -35,3 +35,11 @@
   transform: scale(1.09);
   opacity: 1;
 }
+
+.tedflix {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}

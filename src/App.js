@@ -8,9 +8,13 @@ import Nav from './Nav';
 function App() {
   return (
     <div className="App">
-       <h1>Ted Flix!!!!!!</h1>
+    
        <Nav />
        <Banner />
+         <div className='tedflix'>
+        <h1>Ted Flix!!!!!!</h1>
+      </div>
+       
        <Row 
        title="NETFLIX ORIGINALS" 
        fetchUrl={requests.fetchNetflixOriginals}
